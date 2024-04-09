@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class product {
+public class Product {
 
 	private static int product_id;
 	private static String description;
@@ -13,7 +13,7 @@ public class product {
 	private static int price;
 	private static int quantity;
 
-	public product(int product_id, String name, String description, int price, int quantity) {
+	public Product(int product_id, String name, String description, int price, int quantity) {
 				        this.product_id=product_id;
 				        this.description=description;
 				    	this.name = name;
